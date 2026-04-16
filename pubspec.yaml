@@ -1,16 +1,15 @@
-name: ai_photo_enhancer
-
-description: A new Flutter project.
-
-version: 1.0.0+1
+name: app_ai_1
+description: AI Photo Enhancer App
 
 environment:
-  sdk: '^3.11.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
-  image_picker: ^1.1.2
+  image_picker: ^1.0.4
   http: ^1.2.2
   path_provider: ^2.1.4
+
+flutter:
+  uses-material-design: true
